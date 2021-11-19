@@ -1,0 +1,167 @@
+{
+  "groups": [
+    {
+      "name": "client.client01",
+      "type": "com.wzw.nettylog4j2.client.NettyClient01",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient01"
+    },
+    {
+      "name": "client.client02",
+      "type": "com.wzw.nettylog4j2.client.NettyClient02",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient02"
+    },
+    {
+      "name": "client.client03",
+      "type": "com.wzw.nettylog4j2.client.NettyClient03",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient03"
+    },
+    {
+      "name": "client.client04",
+      "type": "com.wzw.nettylog4j2.client.NettyClient04",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient04"
+    },
+    {
+      "name": "server.server01",
+      "type": "com.wzw.nettylog4j2.server.NettyServer01",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server02",
+      "type": "com.wzw.nettylog4j2.server.NettyServer02",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    }
+  ],
+  "properties": [
+    {
+      "name": "client.client01.bootstrap",
+      "type": "io.netty.bootstrap.Bootstrap",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient01"
+    },
+    {
+      "name": "client.client01.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient01"
+    },
+    {
+      "name": "client.client01.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient01"
+    },
+    {
+      "name": "client.client01.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient01"
+    },
+    {
+      "name": "client.client02.bootstrap",
+      "type": "io.netty.bootstrap.Bootstrap",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient02"
+    },
+    {
+      "name": "client.client02.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient02"
+    },
+    {
+      "name": "client.client02.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient02"
+    },
+    {
+      "name": "client.client02.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient02"
+    },
+    {
+      "name": "client.client03.bootstrap",
+      "type": "io.netty.bootstrap.Bootstrap",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient03"
+    },
+    {
+      "name": "client.client03.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient03"
+    },
+    {
+      "name": "client.client03.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient03"
+    },
+    {
+      "name": "client.client03.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient03"
+    },
+    {
+      "name": "client.client04.bootstrap",
+      "type": "io.netty.bootstrap.Bootstrap",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient04"
+    },
+    {
+      "name": "client.client04.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient04"
+    },
+    {
+      "name": "client.client04.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient04"
+    },
+    {
+      "name": "client.client04.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.client.NettyClient04"
+    },
+    {
+      "name": "server.server01.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server01.event-server-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server01.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server01.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server01.serverbootstrap",
+      "type": "io.netty.bootstrap.ServerBootstrap",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer01"
+    },
+    {
+      "name": "server.server02.event-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    },
+    {
+      "name": "server.server02.event-server-loop-group",
+      "type": "io.netty.channel.EventLoopGroup",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    },
+    {
+      "name": "server.server02.ip",
+      "type": "java.lang.String",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    },
+    {
+      "name": "server.server02.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    },
+    {
+      "name": "server.server02.serverbootstrap",
+      "type": "io.netty.bootstrap.ServerBootstrap",
+      "sourceType": "com.wzw.nettylog4j2.server.NettyServer02"
+    }
+  ],
+  "hints": []
+}

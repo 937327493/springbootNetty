@@ -1,0 +1,20 @@
+server:
+  server01:
+    ip: 127.0.0.1
+    port: 2004
+  server02:
+    ip: 127.0.0.1
+    port: 2005
+client:
+  client01:
+    ip: 127.0.0.1
+    port: 2000
+  client02:
+    ip: 127.0.0.1
+    port: 2001
+  client03:
+    ip: 127.0.0.1
+    port: 2002
+  client04:
+    ip: 127.0.0.1
+    port: 2003
